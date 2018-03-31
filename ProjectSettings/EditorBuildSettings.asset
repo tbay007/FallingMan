@@ -11,3 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StartLevel.unity
     guid: a2f75dbb8229970459f38c0b61afddcf
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 62c7cba205af6614296c969e48f3d283
+  - enabled: 1
+    path: Assets/Scenes/HighScore.unity
+    guid: a1a610c5656e06941bf3d8c120159ccc

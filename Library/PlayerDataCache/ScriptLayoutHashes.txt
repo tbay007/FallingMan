@@ -152,3 +152,4 @@ dd5481137759597d614818793c90a7fe Assembly-CSharp.dll:.Scroll
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PublicSettingsManagerScript
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DestroyerScript
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ScoreSetString
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.QuitScript

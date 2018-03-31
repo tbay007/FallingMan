@@ -18,7 +18,10 @@ public class SpawnScript : MonoBehaviour {
 	void Spawn()
     {
         float spawnSpeed = PublicSettingsManagerScript.spawnSpeed;
-        Instantiate(obj[Random.Range(0, obj.Length)], new Vector3(Random.Range(xMin, xMax), transform.position.y), Quaternion.identity);
-        Invoke("Spawn", spawnSpeed);
+        if (spawnSpeed != 0)
+        {
+            Instantiate(obj[Random.Range(0, obj.Length)], new Vector3(Random.Range(xMin, xMax), transform.position.y), Quaternion.identity);
+            Invoke("Spawn", spawnSpeed);
+        }
     }
 }
